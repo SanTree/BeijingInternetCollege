@@ -58,6 +58,9 @@ header li.dropdown ul > li > a.lastChild {
 	header {
 		min-height: 246px;
 	}
+	footer {
+		text-align: center;
+	}
 }
 header div#divNav a:hover ,header ul.container-fluid div.navbar-header > a:hover {
 	background-color: #283B63;
@@ -72,5 +75,13 @@ footer {
 }
 footer ul li a {
 	color: #333;
+}
+footer img#weixin_scan {
+	position: absolute;
+	top: -20px;
+	left: -2px;
+	max-height: 136px;
+	display: none;
+	_display:none;
 }
 /*底部结束*/
